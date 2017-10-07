@@ -1,0 +1,23 @@
+div.news {
+        margin: 0px 0px 15px;
+        padding: 7px 3.5px 23.5px;
+        background-color: #9FBFFF;
+    }
+
+div.news-oldest {
+    margin: 0px 0px 0px;
+    padding: 7px 3.5px 23.5px;
+    background-color: #dcffdc;
+}
+
+div.news p,
+div.news-oldest p {
+    line-height: 1.1em;
+    margin: 0px;
+}
+
+body {
+    background-attachment: fixed;
+}
+
+a:hover{color: #ffffff;}
