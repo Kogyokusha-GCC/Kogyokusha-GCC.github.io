@@ -8,7 +8,8 @@ img{
 strong#make-it-bigger{font-size: 150% ;}
 h1 {
   position: relative;
-  padding: .25em 0 .5em .75em;
+  // padding: .25em 0 .5em .75em;
+  padding: 5px 6px 2px 8px;
   border-left: 6px solid #3498db;
 }
 h1::after {
