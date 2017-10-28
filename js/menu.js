@@ -1,7 +1,7 @@
 document.open();
 
 document.write("<li>");
-document.write("<a href=\"http://comb21.web.fc2.com\">TOP</a>");
+document.write("<a href=\"index.html\">TOP</a>");
 document.write("</li>");
 
 document.write("<li>");
@@ -17,7 +17,7 @@ document.write("</li>");
 // document.write("</li>");
 
 document.write("<li>");
-document.write("<a href=\"inquiry.html\">お問い合わせ</a>");
+document.write("<a href=\"mailto:gyokucomb@gmail.com\">お問い合わせ</a>");
 document.write("</li>");
 
 document.close();
