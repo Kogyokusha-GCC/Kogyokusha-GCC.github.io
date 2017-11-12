@@ -1,6 +1,6 @@
 document.open();
 
-document.write('<nav class="navbar" role="navigation">');
+document.write('<nav class="navbar navbar-default" role="navigation">');
 document.write('<div class="container-fluid">');
 document.write('<div class="navbar-header">');
 document.write('<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">');
