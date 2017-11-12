@@ -10,6 +10,12 @@ function isSmartphone() {   //スマホからのアクセスかどうか
 }
 
 document.open();
+
+document.write('<hr class="footer_hr">',
+        '<footer class="footer-margin text-center">'
+);
+
+document.write("<span id=\"page-top\" class=\"right\"><a href=\"#\">▲PAGE TOP</a></span>");
 document.write("<div class=\"footer-text mpuls-1m-medium text-center\">");
 if (isSmartphone()) {
     document.write("<a href=\"http://www.kogyokusha.ed.jp/m/index.shtml\">攻玉社学園公式サイト</a><br><br>");
@@ -23,9 +29,10 @@ document.write("<iframe src=\"https://www.facebook.com/plugins/share_button.php?
 
 document.write("<div class=\"row\">");
 document.write("<div class=\"col-lg-12\">");
-document.write("<p>Copyright &copy; Kogyokusha G.C.C. All Rights Reserved.");
 document.write("<br>Powered by GitHub Pages and Bootstrap v3.3.7</p>");
 document.write("</div>");
 document.write("</div>");
-document.write("<span id=\"page-top\" class=\"right\"><a href=\"#\">▲PAGE TOP</a></span>");
+
+document.write('</footer>');
+
 document.close();
