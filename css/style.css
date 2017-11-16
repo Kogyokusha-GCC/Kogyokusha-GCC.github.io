@@ -15,10 +15,10 @@ img {
 
 h1, h2 {
     position: relative;
-    padding: .25em 0 .5em .75em;
+    padding: .25em 0 .5em .7em;
     border-left: 6px solid #3498db;
     /*font-weight: bold;*/
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    /* font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
     color: #483D8B ;
 }
 
