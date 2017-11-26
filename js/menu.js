@@ -9,7 +9,7 @@ document.write("<a href=\"activities.html\">活動内容</a>");
 document.write("</li>");
 
 document.write("<li>");
-document.write("<a href=\"product.html\">制作物</a>");
+document.write("<a href=\"product.html\">部員作品</a>");
 document.write("</li>");
 
 document.write("<li>");
