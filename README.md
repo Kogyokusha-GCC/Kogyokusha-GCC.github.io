@@ -1,4 +1,4 @@
-# GCC-official_website  
+# GCC Official Page
 ここは~~ジャパリパーク~~『[攻玉社学園コンピュータ部 公式サイト](http://comb21.web.fc2.com/)』新公式サイトをGitHub Pagesで公開するためのレポジトリです。
 誤記などがあれば指摘お願い致します。
 
