@@ -1,7 +1,8 @@
 .navbar {
   margin: 0;
   padding: 0;
-  color: #4b4b55
+  color: #4b4b55;
+  
 }
 .navbar .nav li a {
   /*font-weight: bold;*/
