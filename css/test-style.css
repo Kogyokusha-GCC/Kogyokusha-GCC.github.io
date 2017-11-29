@@ -19,7 +19,7 @@ h1, h2 {
     border-left: 6px solid /*#3498db*/ #CC342D;
     /*font-weight: bold;*/
     font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-    color: /*#483D8B*/ /* maroon */ #CC342D;
+    /* color: #483D8B maroon #CC342D; */
 }
 
 h1::after {
