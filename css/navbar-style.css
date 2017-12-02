@@ -19,11 +19,11 @@
 }
 .navbar .nav li a:hover {
   background-color: #e6ebfa;
-  color: #2222ff;
+  color: #2196f3;
 }
 .navbar .nav li a span {
   font-size: 73%;
-  color: #2222ff;
+  color: #2196f3;
 }
 .navbar .nav li a:hover span {
   color: #8f8f8f;
