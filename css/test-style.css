@@ -32,6 +32,6 @@ h1::after {
     border-bottom: 2px solid /*#ccc*/ #CC342D ;
 }
 
-header{
+#header {
    font-weight: bold;
 }
