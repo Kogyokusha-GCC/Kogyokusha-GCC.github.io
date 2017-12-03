@@ -17,6 +17,7 @@ document.write("<a href=\"link.html\">リンク</a>");
 document.write("</li>");
 
 document.write("<li>");
+document.write('<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>');
 document.write("<a href=\"mailto:gyokucomb@gmail.com\">お問い合わせ</a>");
 document.write("</li>");
 
