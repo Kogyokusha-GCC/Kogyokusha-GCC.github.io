@@ -31,3 +31,7 @@ h1::after {
     height: 0;
     border-bottom: 2px solid /*#ccc*/ #CC342D ;
 }
+
+span.line {
+   display: inline-block;
+}
