@@ -17,6 +17,9 @@ img {
 h1, h2 {
   padding: .25em 0 .5em .75em;
   border-left: 6px solid #CC342D;
+}
+
+h1 {
   border-bottom: 1px solid #CC342D;
 }
 
