@@ -14,13 +14,15 @@ img {
     font-size: 150%;
 }
 
-h1, h2 {
+h1 {
   padding: .25em 0 .5em .75em;
-  border-left: 6px solid #CC342D;
+  border-left: 9px solid #CC342D;
+  border-bottom: 2px solid #CC342D;
 }
 
-h1 {
-  border-bottom: 1px solid #CC342D;
+h2 {
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #CC342D;
 }
 
 /*
