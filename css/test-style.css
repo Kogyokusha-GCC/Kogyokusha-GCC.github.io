@@ -1,7 +1,7 @@
 body {
    padding-top: 80px;
    background-color: #fff;
-   animation:fadeIn 1s ease-in-out 0s 1 normal;
+   animation:fadeIn 1s ease-out 0s 1 normal;
 }
 @keyframes fadeIn {
     0% {opacity: 0} /*アニメーション開始時は完全に透過*/
@@ -24,8 +24,8 @@ img {
 h1, h2 {
     position: relative;
     padding: .25em 0 .5em .75em;
-    border-left: 6px solid /*#3498db*/ #CC342D;
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    border-left: 6px solid /*#3498db*/ #CC342D;   
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     /* color: #483D8B maroon #CC342D; */
 }
 h1::after {
