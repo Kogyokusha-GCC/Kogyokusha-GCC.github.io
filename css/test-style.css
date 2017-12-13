@@ -1,19 +1,26 @@
 body {
    padding-top: 80px;
    background-color: #fff;
+   animation:fadeIn 1s ease-in-out 0s 1 normal;
 }
-
+@keyframes fadeIn {
+    0% {opacity: 0} /*アニメーション開始時は完全に透過*/
+    100% {opacity: 1} /*アニメーション終了時は透過しない*/
+}
+/*旧 Safari 用のベンダー処理*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 img {
     max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
-
 #make-it-bigger {
     font-size: 150%;
 }
-
 h1, h2 {
     position: relative;
     padding: .25em 0 .5em .75em;
@@ -21,7 +28,6 @@ h1, h2 {
     font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     /* color: #483D8B maroon #CC342D; */
 }
-
 h1::after {
     position: absolute;
     left: 0;
@@ -31,7 +37,6 @@ h1::after {
     height: 0;
     border-bottom: 2px solid /*#ccc*/ #CC342D ;
 }
-
 span.line {
    display: inline-block;
 }
