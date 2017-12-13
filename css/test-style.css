@@ -21,33 +21,27 @@ img {
 #make-it-bigger {
     font-size: 150%;
 }
-<<<<<<< HEAD
 h1, h2 {
     position: relative;
     padding: .25em 0 .5em .75em;
     border-left: 6px solid /*#3498db*/ #CC342D;   
     font-family: "Open Sans", "Helvetica Neue", Helvetica, "Arial", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     /* color: #483D8B maroon #CC342D; */
-=======
-
+}
 h1 {
   padding: .25em 0 .5em .75em;
   border-left: 9px solid #CC342D;
   border-bottom: 2px solid #CC342D;
 }
-
 h2 {
   padding: .25em 0 .5em .75em;
   border-left: 6px solid #CC342D;
 }
 
-/*
-h1, h2 {
+/*h1, h2 {
     position: relative;
     padding: .25em 0 .5em .75em;
-    border-left: 6px solid #CC342D;
-    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
->>>>>>> 7d0e197669a65c95c8605d5db1afac7f29362389
+    border-left: 6px solid #CC342D;    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Helvetica, Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 h1::after {
     position: absolute;
@@ -57,12 +51,7 @@ h1::after {
     width: 100%;
     height: 0;
     border-bottom: 2px solid #CC342D ;
-}
-<<<<<<< HEAD
-=======
-*/
-
->>>>>>> 7d0e197669a65c95c8605d5db1afac7f29362389
+}*/
 span.line {
    display: inline-block;
 }
