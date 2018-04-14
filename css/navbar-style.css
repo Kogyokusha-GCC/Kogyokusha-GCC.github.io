@@ -3,11 +3,8 @@
   padding: 0;
   background-color: #3b3b35; 
 }
-.navbar .nav li a {
-  /* font-weight: bold; */
+/* .navbar .nav li a {
   text-align: center;
-  /* border-left: 1px solid rgba(255, 255, 255, .75); */
-  /* border-right: 1px solid rgba(0, 0, 0, .1); */
   border-radius: 2px 2px 2px 2px;
 }
 .navbar .nav li:first-child a {
@@ -15,7 +12,6 @@
 }
 .navbar .nav li:last-child a {
   border-right: 0;
-  /* border-radius: 0 3px 3px 0; */
 }
 .navbar .nav li a:hover {
   background-color: #f5f5f5;
@@ -29,7 +25,7 @@
 }
 .navbar .nav li a:hover span {
   color: #8f8f8f;
-}
+} */
 
 @media (min-width: 768px) {
   .navbar .nav {
