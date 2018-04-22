@@ -1,4 +1,4 @@
-# kogyokusha-gcc.github.io
+# Kogyokusha-GCC.github.io
 
 使用しているツール等：
 

@@ -1,7 +1,8 @@
 body {
-   padding-top: 80px;
-   background-color: #fff;
-   animation:fadeIn 1s ease-out 0s 1 normal;
+    padding-top: 80px;
+    background-color: #fff;
+    animation:fadeIn 1s ease-out 0s 1 normal;
+    box-shadow:0 0 1px rgba(0,0,0,0.2)
 }
 img {
     max-width: 80%;
