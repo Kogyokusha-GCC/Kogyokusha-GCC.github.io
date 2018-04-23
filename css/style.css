@@ -1,7 +1,8 @@
 body {
-   padding-top: 80px;
-   background-color: #fff;
-   animation:fadeIn 1s ease-out 0s 1 normal;
+    padding-top: 80px;
+    background-color: #fff;
+    animation:fadeIn 1s ease-out 0s 1 normal;
+    text-align: justify;
 }
 img {
     max-width: 80%;
@@ -37,12 +38,27 @@ span.line {
     height: 300px;
     background: url('../files/test-img.jpg') center center no-repeat scroll;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .news {
       margin: 0px 0px 15px;
       padding: 7px 3.5px 23.5px;
       /* background-color: #ddffdd #DEEEFF; */
+}
+#noscript{
+    padding:30px;
+    color:red;
+    border:3px solid red;
+    background:#fff;
+    font-weight:700;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:3
 }
 
 /* iPhone X 対応用 */
