@@ -16,7 +16,7 @@ img {
 h1, h2 {
     position: relative;
     padding: .25em 0 .5em .75em;
-    border-left: 6px solid /*#3498db*/ #CC342D;   
+    border-left: 6px solid rgb(253, 63, 53);   
     font-family: "Helvetica", "Arial", sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo;
     /* color: #483D8B maroon #CC342D; */
 }
@@ -36,7 +36,7 @@ span.line {
 
 .bg {
     height: 300px;
-    background: url('../files/test-img.jpg') center center no-repeat scroll;
+    background: url('../files/test-img2.jpg') center center no-repeat scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -70,3 +70,29 @@ span.line {
     0% {opacity: 0}
     100% {opacity: 1}
 }
+
+.jumbotron-extend {
+    position: relative;
+    height: 70vh;
+    min-height: 300px;
+    background: url(../files/test-img2.jpg) no-repeat center center;
+    background-size: cover;
+}
+.jumbotron-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h1.site-name{
+    color:#fff;
+}
+.btn-black {
+    border-radius: 0;
+    background-color: rgb(58, 183, 255);
+    color: #fff; 
+    /* font-family: 'Avenir', serif; */
+}
+/* .btn-black:hover {
+     background-color: #fff;
+     color: #000;
+} */
