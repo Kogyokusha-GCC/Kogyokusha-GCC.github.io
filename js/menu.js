@@ -13,6 +13,10 @@ document.write('<a href="product.html">部員作品</a>');
 document.write("</li>");
 
 document.write("<li>");
+document.write('<a href="news.html">更新履歴</a>');
+document.write("</li>");
+
+document.write("<li>");
 document.write('<a href="link.html">リンク</a>');
 document.write("</li>");
 

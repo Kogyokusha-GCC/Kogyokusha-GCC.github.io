@@ -3,6 +3,7 @@ body {
     background-color: #fff;
     animation:fadeIn 1s ease-out 0s 1 normal;
     text-align: justify;
+    font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
 }
 img {
     max-width: 80%;
@@ -15,21 +16,24 @@ img {
 }
 h1, h2 {
     position: relative;
-    padding: .25em 0 .5em .75em;
-    border-left: 6px solid rgb(253, 63, 53);   
-    font-family: "Helvetica", "Arial", sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo;
-    /* color: #483D8B maroon #CC342D; */
+    /* font-family: "Helvetica", "Arial", sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo; */
 }
 h1 {
-  padding: .25em 0 .5em .75em;
-  border-left: 9px solid #CC342D;
-  border-bottom: 2px solid #CC342D;
+    /* #cc342d */
+    padding: .25em 0 .5em .75em;
+    border-left: 9px solid #CC342D;
+    border-bottom: 2px solid #CC342D;
+}
+h1.site-name{
+    position: relative;
+    padding: .25em 0 .5em .75em;
+    border-left: 9px solid red;
+    border-bottom: 2px solid red;
 }
 h2 {
   padding: .25em 0 .5em .75em;
-  border-left: 6px solid #CC342D;
+  border-left: 6px solid rgb(196, 54, 11);
 }
-
 span.line {
    display: inline-block;
 }
