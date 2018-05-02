@@ -78,7 +78,7 @@ span.line {
 .jumbotron-extend {
     position: relative;
     height: 70vh;
-    min-height: 300px;
+    min-height: 400px;
     background: url(../files/test-img2.jpg) no-repeat center center;
     background-size: cover;
 }
