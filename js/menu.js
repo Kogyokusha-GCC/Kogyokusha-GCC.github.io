@@ -16,12 +16,12 @@ document.write("<li>");
 document.write('<a href="news.html">更新履歴</a>');
 document.write("</li>");
 
-document.write("<li>");
-document.write('<a href="link.html">リンク</a>');
-document.write("</li>");
+// document.write("<li>");
+// document.write('<a href="link.html">リンク</a>');
+// document.write("</li>");
 
-document.write("<li>");
-document.write('<a href="inquiry.html">お問い合わせ</a>');
-document.write("</li>");
+// document.write("<li>");
+// document.write('<a href="inquiry.html">お問い合わせ</a>');
+// document.write("</li>");
 
 document.close();

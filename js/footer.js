@@ -11,7 +11,7 @@ document.write("<a href=\"https://twitter.com/share\" class=\"twitter-share-butt
 document.write("<div class=\"row\">");
 document.write("<div class=\"col-lg-12\">");
 document.write("<p>Powered by GitHub Pages and Bootstrap v3.3.7");
-document.write("<br>Copyright &copy;1975-2018 Kogyokusha-GCC.</p>");
+document.write("<br>Copyright &copy;1975-2018 Kogyokusha-GCC, GyokuCombSoft</p>");
 document.write("</div>");
 document.write("</div>");
 
