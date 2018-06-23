@@ -53,6 +53,7 @@ span.line {
       padding: 7px 3.5px 23.5px;
       /* background-color: #ddffdd #DEEEFF; */
 }
+p.product{list-style: none; margin-left:20px;}
 #noscript{
     padding:30px;
     color:red;
