@@ -25,12 +25,12 @@ h1 {
     border-bottom: 2px solid #CC342D;
 }
 h1.site-name{
-    color: snow;
+    color: #fff;
     position: relative;
     padding: .25em 0 .5em .75em;
     border-left: 9px solid red;
     border-bottom: 4px solid red;
-    /* font-style:  */
+    font-weight: 600;
 }
 h2 {
   padding: .25em 0 .5em .75em;
@@ -53,6 +53,7 @@ span.line {
       padding: 7px 3.5px 23.5px;
       /* background-color: #ddffdd #DEEEFF; */
 }
+p.product{list-style: none; margin-left:20px;}
 #noscript{
     padding:30px;
     color:red;
