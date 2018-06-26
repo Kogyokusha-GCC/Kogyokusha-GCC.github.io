@@ -11,7 +11,7 @@ document.write('<span class="icon-bar"></span>');
 document.write('<span class="icon-bar"></span>');
 document.write('<span class="icon-bar"></span>');
 document.write('</button>');
-document.write('<a href="#" class="navbar-brand visible-xs">GCC</a>');
+document.write('<a href="#" class="navbar-brand visible-xs">Kogyokusha-GCC</a>');
 document.write('</div>');
 
 document.write('<div class="collapse navbar-collapse" id="navbar">');
