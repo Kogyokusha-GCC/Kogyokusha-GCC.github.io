@@ -3,7 +3,7 @@ body {
     background-color: snow;
     animation:fadeIn 1s ease-out 0s 1 normal;
     text-align: justify;
-    font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
+    /* font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif; */
 }
 img {
     max-width: 80%;
