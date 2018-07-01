@@ -1,23 +1,12 @@
-div.news {
+section.news {
+        border-radius: 3px;
         margin: 0px 0px 15px;
         padding: 7px 3.5px 23.5px;
-        background-color: #AFEEEE;
-    }
-
-div.news-oldest {
-    margin: 0px 0px 0px;
-    padding: 7px 3.5px 23.5px;
-    background-color: #dcffdc;
+        background-color: #ffe0e0;
 }
-
-div.news p,
-div.news-oldest p {
+section.news p{
     line-height: 1.1em;
     margin: 0px;
+    font-size: 12pt;
 }
-
-body {
-    background-attachment: fixed;
-}
-
-/*a:hover{color: #ffffff;}
+a{color: #0020d4;}
