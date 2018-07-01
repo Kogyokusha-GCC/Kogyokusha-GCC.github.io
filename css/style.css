@@ -1,5 +1,5 @@
 body {
-    padding-top: 80px;
+    /* padding-top: 80px; */
     background-color: snow;
     animation:fadeIn 1s ease-out 0s 1 normal;
     text-align: justify;
@@ -19,7 +19,6 @@ h1, h2 {
     /* font-family: "Helvetica", "Arial", sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo; */
 }
 h1 {
-    /* #cc342d */
     padding: .25em 0 .5em .75em;
     border-left: 9px solid #CC342D;
     border-bottom: 2px solid #CC342D;
@@ -48,12 +47,10 @@ span.line {
     background-size: cover;
     -o-background-size: cover;
 }
-.news {
-      margin: 0px 0px 15px;
-      padding: 7px 3.5px 23.5px;
-      /* background-color: #ddffdd #DEEEFF; */
+p.product{
+    list-style: none;
+    margin-left:20px;
 }
-p.product{list-style: none; margin-left:20px;}
 #noscript{
     padding:30px;
     color:red;
@@ -64,16 +61,6 @@ p.product{list-style: none; margin-left:20px;}
     right:0;
     top:0;
     z-index:3
-}
-
-/* iPhone X 対応用 */
-@keyframes fadeIn {
-    0% {opacity: 0} /*アニメーション開始時は完全に透過*/
-    100% {opacity: 1} /*アニメーション終了時は透過しない*/
-}
-@-webkit-keyframes fadeIn /*旧 Safari 用のベンダー処理*/ {
-    0% {opacity: 0}
-    100% {opacity: 1}
 }
 
 .jumbotron-extend {
@@ -88,16 +75,16 @@ p.product{list-style: none; margin-left:20px;}
     top: 50%;
     transform: translateY(-50%);
 }
-.btn-black {
-    border-radius: 0;
+.btn {
+    border-radius: 5px;
     background-color: rgb(58, 183, 255);
-    color: #fff; 
+    color: #fff;
     /* font-family: 'Avenir', serif; */
 }
-/* .btn-black:hover {
-     background-color: #fff;
+.btn:hover {
+     /* background-color: #fff; */
      color: #000;
-} */
+}
 .SandboxRoot .env-bp-660 .timeline-Tweet-text .tweetAuthor-name {
 	font-size: 10.5pt !important;
     line-height: 14pt!important;
