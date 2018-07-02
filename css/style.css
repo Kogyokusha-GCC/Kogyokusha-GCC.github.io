@@ -1,9 +1,26 @@
 body {
-    /* padding-top: 80px; */
+    padding-top: 80px;
     background-color: snow;
     animation:fadeIn 1s ease-out 0s 1 normal;
+    -webkit-animation: fadeIn 0.7s ease-in;
     text-align: justify;
-    font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
+    /* font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif; */
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 img {
     max-width: 80%;
@@ -27,8 +44,8 @@ h1.site-name{
     color: #fff;
     position: relative;
     padding: .25em 0 .5em .75em;
-    border-left: 9px solid red;
-    border-bottom: 4px solid red;
+    border-left: 9px solid rgba(255, 31, 31, 0.925);
+    border-bottom: 4px solid rgba(255, 31, 31, 0.925);
     font-weight: 600;
 }
 h2 {
@@ -49,7 +66,6 @@ span.line {
 }
 p.product{
     list-style: none;
-    margin-left:20px;
 }
 #noscript{
     padding:30px;
@@ -62,7 +78,6 @@ p.product{
     top:0;
     z-index:3
 }
-
 .jumbotron-extend {
     position: relative;
     height: 70vh;
@@ -77,12 +92,12 @@ p.product{
 }
 .btn {
     border-radius: 5px;
-    background-color: rgb(58, 183, 255);
+    background-color: rgba(58, 199, 255, 0.918);
     color: #fff;
     /* font-family: 'Avenir', serif; */
 }
 .btn:hover {
-     /* background-color: #fff; */
+     background-color: #fff;
      color: #000;
 }
 .SandboxRoot .env-bp-660 .timeline-Tweet-text .tweetAuthor-name {
