@@ -40,6 +40,9 @@
   .navbar .nav li a {
     text-decoration: none;
   }
+  .navbar .nav li a:hover {
+    text-decoration: underline;
+  }
 }
 @media (max-width: 768px) {
   .navbar .nav li a {
@@ -47,6 +50,9 @@
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     text-decoration: none;
+  }
+  .navbar .nav li a:hover {
+    text-decoration: underline;
   }
   .nav li a span {
     display: none;

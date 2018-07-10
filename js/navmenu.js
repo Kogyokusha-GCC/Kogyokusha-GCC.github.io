@@ -11,12 +11,12 @@ document.write('<span class="icon-bar"></span>');
 document.write('<span class="icon-bar"></span>');
 document.write('<span class="icon-bar"></span>');
 document.write('</button>');
-document.write('<a href="#" class="navbar-brand visible-xs">攻玉社コンピュータ部</a>');
+document.write('<span class="navbar-brand visible-xs">攻玉社コンピュータ部</span>');
 document.write('</div>');
 
 document.write('<div class="collapse navbar-collapse" id="navbar">');
 document.write('<ul class="nav navbar-nav">');
-document.write('<script type="text/javascript" src="js/contents.js"></script>');
+document.write('<script type="text/javascript" src="js/navmenu-contents.js"></script>');
 document.write('</ul>');
 document.write('</div>');
 
