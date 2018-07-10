@@ -116,3 +116,6 @@ p.product{
     padding-left: 10%;
     padding-right: 10%;
 }
+a{
+    text-decoration: underline;
+}
