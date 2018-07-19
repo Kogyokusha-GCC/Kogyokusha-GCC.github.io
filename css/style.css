@@ -1,8 +1,8 @@
 body {
     padding-top: 80px;
     background-color: snow;
-    animation:fadeIn 1s ease-out 0s 1 normal;
-    -webkit-animation: fadeIn 0.7s ease-in;
+    animation:fadeIn 1.5s ease-out 0s 1 normal;
+    -webkit-animation: fadeIn 1.5s ease-in;
     text-align: justify;
     /* font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif; */
 }
@@ -50,7 +50,7 @@ h1.site-name{
 }
 h2 {
   padding: .25em 0 .5em .75em;
-  border-left: 6px solid rgb(228, 63, 12);
+  border-left: 6px solid rgb(255, 80, 36);
 }
 span.line {
    display: inline-block;
