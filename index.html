@@ -30,12 +30,12 @@
 
         <!-- ファビコン指定 -->
         <link rel="icon" href="./files/dummy-logo2.jpg" type="img/jpg">
-
-        <!-- Bootstrap インクルード -->
-        <script src="js/include-bootstrap.js"></script>
-
+        
         <!-- script.js インクルード -->
-        <!-- <script src="js/script.js"></script> -->
+        <script src="js/script.js"></script>
+        
+        <!-- Bootstrap インクルード -->
+        <span id="includeBootstrap_id"></span>
 
         <!-- CSSインクルード -->
         <link href="css/style.css" type="text/css" rel="stylesheet" />
@@ -43,7 +43,6 @@
         <link href="css/modern-normalize.css" type="text/css" rel="stylesheet" />
 
         <title>攻玉社中学・高校 コンピュータ部 公式サイト - GCC</title>
-
     </head>
 
     <body>
@@ -55,7 +54,7 @@
         </noscript>
 
         <!-- Navigation bar-->
-        <script src="js/navmenu.js"></script>
+        <span id="navMenu"></span>
 
         <!-- header -->
         <header class="jumbotron jumbotron-extend">
@@ -112,8 +111,8 @@
                 <div class="col-sm-12">
                     <h2>Twitter</h2>
                     <div class="twitter well">
-                        <a class="twitter-timeline" data-lang="ja" data-dnt="true" data-theme="light" data-height="400" href="https://twitter.com/Kogyokusha_GCC?ref_src=twsrc%5Etfw">Tweets by Kogyokusha_GCC</a>
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a class="twitter-timeline" data-lang="ja" data-dnt="true" data-theme="light" data-height="400" href="https://twitter.com/Kogyokusha_GCC?ref_src=twsrc%5Etfw">Tweets by Kogyokusha_GCC</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
 
@@ -150,10 +149,8 @@
             <!-- 本文 ここまで -->
 
             <!-- footer -->
-            <script src="js/footer.js"></script>
-
+            <span id="footer"></span>
         </div>
-
     </body>
 
 </html>
