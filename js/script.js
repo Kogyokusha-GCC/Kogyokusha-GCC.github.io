@@ -1,16 +1,3 @@
-// $(window).on('load resize', function () {
-    // navbarの高さを取得する
-    // var height = $('.navbar').height();
-    // bodyのpaddingにnavbarの高さを設定する
-    // $('body').css('padding-top', height);
-// });
-
-window.onload = function () {
-    includeBootstrap();
-    writeNavigationBar();
-    writeFooter();
-}
-
 //Bootstrapインクルード
 function includeBootstrap() {
     var includeBootstrapHtml =
@@ -90,3 +77,9 @@ function writeFooter() {
         '</footer>';
     document.getElementById("footer").outerHTML = footerHtml;
 };
+
+//window.onload = function () {
+//    includeBootstrap();
+//    writeNavigationBar();
+//    writeFooter();
+//};
