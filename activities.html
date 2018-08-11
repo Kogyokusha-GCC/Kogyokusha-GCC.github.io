@@ -1,76 +1,87 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107302562-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-107302562-1');
-    </script>
-    <!-- Google Analytics ここまで-->
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107302562-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-107302562-1');
+        </script>
+        <!-- Google Analytics ここまで-->
 
-    <!-- いろいろ大事なmeta -->
-    <meta http-equiv="content-type" charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=yes" />
-    <meta name="description" content="攻玉社中学・高校 コンピュータ部 公式サイト">
-    <meta name="author" content="Kogyokusha-GCC">
-    
-    <!-- twitter card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@Kogyokusha_GCC" />
-    <meta property="og:url" content="https://kogyokusha-gcc.github.io/activities.html" />
-    <meta property="og:title" content="活動内容｜攻玉社中学・高校 コンピュータ部 公式サイト" />
-    <meta property="og:description" content="輝玉祭で配布したPCゲームのダウンロードはこちらからどうぞ！" />
-    <meta property="og:image" content="https://kogyokusha-gcc.github.io/files/dummy-logo3.png" />
+        <!-- いろいろ大事なmeta -->
+        <meta http-equiv="content-type" charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, user-scalable=yes" />
+        <meta name="description" content="攻玉社中学・高校 コンピュータ部 公式サイト">
+        <meta name="author" content="Kogyokusha-GCC">
 
-    <!-- ファビコン指定 -->
-    <link rel="icon" href="./files/dummy-logo2.jpg" type="img/jpg">
+        <!-- twitter card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@Kogyokusha_GCC" />
+        <meta property="og:url" content="https://kogyokusha-gcc.github.io/activities.html" />
+        <meta property="og:title" content="活動内容｜攻玉社中学・高校 コンピュータ部 公式サイト" />
+        <meta property="og:description" content="輝玉祭で配布したPCゲームのダウンロードはこちらからどうぞ！" />
+        <meta property="og:image" content="https://kogyokusha-gcc.github.io/files/dummy-logo3.png" />
 
-    <!-- script.js インクルード -->
-    <script src="js/script.js"></script>
+        <!-- ファビコン指定 -->
+        <link rel="icon" href="./files/dummy-logo2.jpg" type="img/jpg">
 
-    <!-- Bootstrap インクルード -->
-    <span id="includeBootstrap_id"></span>
+        <!-- script.js インクルード -->
+        <script src="js/script.js"></script>
+        <script>window.onload = function () { includeBootstrap(); writeNavigationBar(); writeFooter(); }</script>
 
-    <!-- CSSインクルード -->
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <link href="css/navbar-style.css" type="text/css" rel="stylesheet"/>
-    <link href="css/modern-normalize.css" type="text/css" rel="stylesheet" />
+        <!-- Bootstrap インクルード -->
+        <span id="includeBootstrap_id"></span>
 
-    <title>活動内容｜攻玉社中学・高校 コンピュータ部 - GCC</title>
-</head>
+        <!-- CSSインクルード -->
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        <link href="css/navbar-style.css" type="text/css" rel="stylesheet" />
+        <link href="css/modern-normalize.css" type="text/css" rel="stylesheet" />
 
-<body>
-<div class="container-fluid">
+        <title>活動内容｜攻玉社中学・高校 コンピュータ部 - GCC</title>
+    </head>
 
-    <!-- Navigation bar-->
-    <span id="navMenu"></span>
-    
-    <h1>活動内容</h1>
-    
-    <h2>攻玉社学園 コンピュータ部（GCC）とは？</h2>
-    <p>攻玉社学園コンピュータ部は、主にパソコン向けゲームを制作し、毎年9月に開催される本校の文化祭『輝玉祭』に出展・ゲームを無料で配布しています。<br>また、部員の興味に応じて、プログラミングや3DCG制作など、コンピュータに関する活動を幅広く行っています。</p>
-    <p>部員数は30人以上（2017年12月現在）と、とても活気のある部活です。<br>上下関係が他の部よりも緩めなのが大きな特徴で、SNSを利用して学年問わず部員同士で交流を深めています。</p>
-    <p>スクリプト言語<a href="http://hsp.tv/" target="blank">Hot Soup Processor</a>を使用して開発している部員が多いです。<br>一方、C++, Python, Java, Scalaなどの言語や、<a href="https://unity3d.com/jp" target="blank">Unity</a>、<a href="https://www.yoyogames.com/gamemaker">GameMaker Studio</a>といったゲームエンジンを使用している部員もいます。</p>
-    <p>ぜひお気軽にお越し下さい！</p>
+    <body>
+        <div class="container-fluid">
 
-    <p>活動場所：2号館3F 物理実験室<br>
-       活動日：毎週水・金・土曜日
-    </p>
+            <!-- Navigation bar-->
+            <span id="navMenu"></span>
 
-    <h2>略称について</h2>
-    <p>コンピュータ部は、部員間では『昆布（こんぶ）』と通称されている他、公式な略称として<strong>"GCC"</strong>という名前を使用しております。
-    <br>"GCC"は"Ko<strong>G</strong>yokusha <strong>C</strong>omputer <strong>C</strong>lub"の略称です。なお、"Gaming Coders' Community"の頭文字をとったものだと主張する部員もいます。</p>
-    <!-- ところで、『涼宮ハルヒの憂鬱』に出てくる「コンピ研」って通称、何か言いづらいと思いませんか？「昆布」という通称はもっと広まるべき -->
+            <h1>活動内容</h1>
 
-    <!-- footer -->
-    <span id="footer"></span>
+            <h2>攻玉社学園 コンピュータ部（GCC）とは？</h2>
+            <p>攻玉社学園コンピュータ部は、主にパソコン向けゲームを制作し、毎年9月に開催される本校の文化祭『輝玉祭』に出展・ゲームを無料で配布しています。
+                <br>また、部員の興味に応じて、プログラミングや3DCG制作など、コンピュータに関する活動を幅広く行っています。</p>
+            <p>部員数は30人以上（2017年12月現在）と、とても活気のある部活です。
+                <br>上下関係が他の部よりも緩めなのが大きな特徴で、SNSを利用して学年問わず部員同士で交流を深めています。</p>
+            <p>スクリプト言語
+                <a href="http://hsp.tv/" target="blank">Hot Soup Processor</a>を使用して開発している部員が多いです。
+                <br>一方、C++, Python, Java, Scalaなどの言語や、
+                <a href="https://unity3d.com/jp" target="blank">Unity</a>、
+                <a href="https://www.yoyogames.com/gamemaker">GameMaker Studio</a>といったゲームエンジンを使用している部員もいます。</p>
+            <p>ぜひお気軽にお越し下さい！</p>
 
-</div>
-</body>
+            <p>活動場所：2号館3F 物理実験室
+                <br> 活動日：毎週水・金・土曜日
+            </p>
+
+            <h2>略称について</h2>
+            <p>コンピュータ部は、部員間では『昆布（こんぶ）』と通称されている他、公式な略称として
+                <strong>"GCC"</strong>という名前を使用しております。
+                <br>"GCC"は"Ko
+                <strong>G</strong>yokusha
+                <strong>C</strong>omputer
+                <strong>C</strong>lub"の略称です。なお、"Gaming Coders' Community"の頭文字をとったものだと主張する部員もいます。</p>
+            <!-- ところで、『涼宮ハルヒの憂鬱』に出てくる「コンピ研」って通称、何か言いづらいと思いませんか？「昆布」という通称はもっと広まるべき -->
+
+            <!-- footer -->
+            <span id="footer"></span>
+
+        </div>
+    </body>
 
 </html>

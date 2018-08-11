@@ -1,15 +1,5 @@
-// $(window).on('load resize', function () {
-    // navbarの高さを取得する
-    // var height = $('.navbar').height();
-    // bodyのpaddingにnavbarの高さを設定する
-    // $('body').css('padding-top', height);
-// });
-
-window.onload = function () {
-    includeBootstrap();
-    writeNavigationBar();
-    writeFooter();
-}
+//以下の三つの関数は、対応するidのついたspan要素を丸ごと全部、変数に代入されている文字列（HTMLソースの一部）に置換してるやで
+//以前はdocument.writeで実装してた。それをouterHTMLを使うように書き換えたのが下のソースね
 
 //Bootstrapインクルード
 function includeBootstrap() {
@@ -90,3 +80,9 @@ function writeFooter() {
         '</footer>';
     document.getElementById("footer").outerHTML = footerHtml;
 };
+
+//window.onload = function () {
+//    includeBootstrap();
+//    writeNavigationBar();
+//    writeFooter();
+//};

@@ -30,10 +30,17 @@
 
         <!-- ファビコン指定 -->
         <link rel="icon" href="./files/dummy-logo2.jpg" type="img/jpg">
-        
+
         <!-- script.js インクルード -->
         <script src="js/script.js"></script>
-        
+        <script>
+        window.onload = function () {
+            includeBootstrap();
+            writeNavigationBar();
+            writeFooter();
+        }
+        </script>
+
         <!-- Bootstrap インクルード -->
         <span id="includeBootstrap_id"></span>
 
@@ -90,7 +97,9 @@
                         <strong>攻玉社中学・高校コンピュータ部 公式サイトへようこそ！</strong>
                     </p>
                     <p>私たち『攻玉社学園コンピュータ部』 (GCC)　は、ゲーム制作をはじめとしたコンピュータプログラミングを通して、情報技術に対する興味と関心を高めることを目標とした、私立攻玉社中学校・高等学校の部活動です。</p>
-                    <p>現在の主な活動内容は、パソコン・スマートフォン向けゲームを開発し、毎年9月に開催される『<a href="http://kigyoku.com">輝玉祭</a>』にて無料配布することです。詳しくは<a href="activities.html">こちら</a>をご覧ください。</p>
+                    <p>現在の主な活動内容は、パソコン・スマートフォン向けゲームを開発し、毎年9月に開催される『
+                        <a href="http://kigyoku.com">輝玉祭</a>』にて無料配布することです。詳しくは
+                        <a href="activities.html">こちら</a>をご覧ください。</p>
                     <p>2017年現在、およそ30名以上の部員を擁し、普段は毎週水・金・土曜日に活動しています。</p>
                     <p>このホームページでは、活動報告・輝玉祭に出展したゲームの配布などを行っております。</p>
                 </div>
@@ -111,8 +120,8 @@
                 <div class="col-sm-12">
                     <h2>Twitter</h2>
                     <div class="twitter well">
-                            <a class="twitter-timeline" data-lang="ja" data-dnt="true" data-theme="light" data-height="400" href="https://twitter.com/Kogyokusha_GCC?ref_src=twsrc%5Etfw">Tweets by Kogyokusha_GCC</a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a class="twitter-timeline" data-lang="ja" data-dnt="true" data-theme="light" data-height="400" href="https://twitter.com/Kogyokusha_GCC?ref_src=twsrc%5Etfw">Tweets by Kogyokusha_GCC</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
 
