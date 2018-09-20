@@ -1,46 +1,53 @@
 body {
     padding-top: 80px;
     background-color: snow;
-    animation:fadeIn 1.5s ease-out 0s 1 normal;
+    animation: fadeIn 1.5s ease-out 0s 1 normal;
     -webkit-animation: fadeIn 1.5s ease-in;
     text-align: justify;
     /* font-family: 'quicksand', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif; */
 }
-@keyframes fadeIn{
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes fadeIn{
-	0%{
-		opacity: 0;
-	}
-	100%{
-		opacity: 1;
-	}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 img {
     max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
 #make-it-bigger {
     font-size: 150%;
 }
+
 h1, h2 {
     position: relative;
     /* font-family: "Helvetica", "Arial", sans-serif, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo; */
 }
+
 h1 {
     padding: .25em 0 .5em .75em;
     border-left: 9px solid #CC342D;
     border-bottom: 2px solid #CC342D;
 }
-h1.site-name{
+
+h1.site-name {
     color: #fff;
     position: relative;
     padding: .25em 0 .5em .75em;
@@ -48,13 +55,16 @@ h1.site-name{
     border-bottom: 4px solid rgba(255, 31, 31, 0.925);
     font-weight: 600;
 }
+
 h2 {
-  padding: .25em 0 .5em .75em;
-  border-left: 6px solid rgb(255, 80, 36);
+    padding: .25em 0 .5em .75em;
+    border-left: 6px solid rgb(255, 80, 36);
 }
+
 span.line {
-   display: inline-block;
+    display: inline-block;
 }
+
 .bg {
     height: 300px;
     background: url('../files/test-img2.jpg') center center no-repeat scroll;
@@ -64,20 +74,23 @@ span.line {
     background-size: cover;
     -o-background-size: cover;
 }
-p.product{
+
+p.product {
     list-style: none;
 }
-#noscript{
-    padding:30px;
-    color:red;
-    border:3px solid red;
-    background:#fff;
-    font-weight:700;
-    position:absolute;
-    right:0;
-    top:0;
-    z-index:3
+
+#noscript {
+    padding: 30px;
+    color: red;
+    border: 3px solid red;
+    background: #fff;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3
 }
+
 .jumbotron-extend {
     position: relative;
     height: 70vh;
@@ -85,37 +98,62 @@ p.product{
     background: url(../files/test-img2.jpg) no-repeat center center;
     background-size: cover;
 }
+
 .jumbotron-container {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
+
 .btn {
     border-radius: 5px;
     background-color: rgba(58, 199, 255, 0.918);
     color: #fff;
     /* font-family: 'Avenir', serif; */
 }
+
 .btn:hover {
-     background-color: #fff;
-     color: #000;
+    background-color: #fff;
+    color: #000;
 }
+
 .SandboxRoot .env-bp-660 .timeline-Tweet-text .tweetAuthor-name {
-	font-size: 10.5pt !important;
+    font-size: 10.5pt !important;
     line-height: 14pt!important;
 }
+
 .SandboxRoot.env-bp-970 .timeline-Tweet-text {
     font-size: 10.5pt !important;
     line-height: 14pt!important;
-    }
+}
+
 .SandboxRoot.env-bp-820 .timeline-Tweet-text {
     font-size: 10.5pt !important;
     line-height: 14pt!important;
-    }
-.twitter{
+}
+
+.twitter {
     padding-left: 10%;
     padding-right: 10%;
 }
-a{
+
+a {
     text-decoration: underline;
+}
+
+body.news a {
+    color: #0020d4
+}
+
+section.news {
+    border-radius: 3px;
+    margin: 0px 0px 15px;
+    padding: 7px 3.5px 23.5px;
+    background-color: #ffe0e0;
+}
+
+section.news p {
+    line-height: 1.1em;
+    margin: 0px;
+    font-size: 12pt;
 }
