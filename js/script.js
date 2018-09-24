@@ -68,7 +68,7 @@ function writeFooter() {
         
         "<div class=\"footer-text mpuls-1m-medium text-center\">"+
         "</div>"+
-        "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-lang=\"ja\" data-hashtags=\"攻玉社\" data-url=\"https://kogyokusha-gcc.github.io\">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s+js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs+}}(document, 'script', 'twitter-wjs'+</script><br>"+
+        "<a href=\"https://twitter.com/share?url=https%3a%2f%2fkogyokusha%2dgcc%2egithub%2eio%2f\" class=\"twitter-share-button\" data-lang=\"ja\" data-hashtags=\"攻玉社\" data-url=\"https://kogyokusha-gcc.github.io\">ツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s+js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs+}}(document, 'script', 'twitter-wjs'+</script><br>"+
         "<div class=\"row\">"+
         "<div class=\"col-lg-12\">"+
         "<p>Powered by GitHub Pages and Bootstrap v3.3.7"+
