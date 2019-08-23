@@ -71,7 +71,7 @@ function writeFooter() {
         "<div class=\"row\">"+
         "<div class=\"col-lg-12\">"+
         "<p>Powered by GitHub Pages and Bootstrap v3.3.7"+
-        "<br>Copyright &copy;2011-2018 Kogyokusha-GCC, GyokuCombSoft</p>"+
+        "<br>Copyright &copy;2011-2019 Kogyokusha-GCC, GyokuCombSoft</p>"+
         "</div>"+
         "</div>"+
         
