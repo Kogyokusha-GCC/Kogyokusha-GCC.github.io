@@ -95,7 +95,7 @@ p.product {
     position: relative;
     height: 70vh;
     min-height: 400px;
-    background: url(../files/test-img2.jpg) no-repeat center center;
+    background: url(../files/test.jpg) no-repeat center center;
     background-size: cover;
 }
 
