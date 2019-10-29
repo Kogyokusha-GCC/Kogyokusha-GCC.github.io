@@ -6,3 +6,4 @@
 - Honoka (http://honokak.osaka)  
 - gtag.js (Google Analytics)  
 - メールアドレス暗号化（https://www.wizforest.com/tech/hideadr/）
+- reCAPTCHA v3
