@@ -11,7 +11,14 @@
             gtag('config', 'UA-107302562-1');
         </script>
         <!-- Google Analytics ここまで-->
-
+        <script src="https://www.google.com/recaptcha/api.js?render=6Lct-L8UAAAAAAJDrurpcfNA_Gfab85PqRVRuoA9"></script>
+        <script>
+        grecaptcha.ready(function() {
+        grecaptcha.execute('6Lct-L8UAAAAAAJDrurpcfNA_Gfab85PqRVRuoA9', {action: 'homepage'}).then(function(token) {
+                ...
+            });
+        });
+        </script>
         <!-- twitter card -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@Kogyokusha_GCC" />
