@@ -22,7 +22,7 @@
         <!-- twitter card -->
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@Kogyokusha_GCC" />
-        <meta property="og:url" content="https://kogyokusha-gcc.github.io/activities.html" />
+        <meta property="og:url" content="https://kogyokusha-gcc.github.io/contact.html" />
         <meta property="og:title" content="活動内容｜攻玉社中学・高校 コンピュータ部 公式サイト" />
         <meta property="og:description" content="輝玉祭で配布したPCゲームのダウンロードはこちらからどうぞ！" />
         <meta property="og:image" content="https://kogyokusha-gcc.github.io/files/dummy-logo3.png" />
@@ -50,6 +50,19 @@
 
             <!-- Navigation bar-->
             <span id="navMenu"></span>
+
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xnqdnwqe" method="post">
+                <fieldset id="fs-frm-inputs">
+                  <label for="full-name">お名前</label>
+                  <input type="text" name="name" id="full-name" placeholder="お名前" required="">
+                  <label for="email-address">メールアドレス</label>
+                  <input type="email" name="_replyto" id="email-address" placeholder="email@example.com" required="">
+                  <label for="message">お問い合わせ内容</label>
+                  <textarea rows="5" name="message" id="message" placeholder="お問い合わせ内容" required=""></textarea>
+                  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="送信">
+              </form>
 
             <!-- footer -->
             <span id="footer"></span>
