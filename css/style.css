@@ -67,7 +67,7 @@ span.line {
 
 .bg {
     height: 300px;
-    background: url('../files/test.JPG') center center no-repeat scroll;
+    background: url('../files/test.jpg') center center no-repeat scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,7 +95,7 @@ p.product {
     position: relative;
     height: 70vh;
     min-height: 400px;
-    background: url(../files/test.JPG) no-repeat center center;
+    background: url(../files/test.jpg) no-repeat center center;
     background-size: cover;
 }
 
