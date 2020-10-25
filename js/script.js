@@ -40,6 +40,10 @@ function writeNavigationBar() {
             "<li>" +
             '<a href="product.html">部員作品</a>' +
             "</li>" +
+        
+            "<li>" +
+            '<a href="festival.html">輝玉祭2020特設ページ</a>' +
+            "</li>" +
 
             "<li>" +
             '<a href="news.html">更新履歴</a>' +
