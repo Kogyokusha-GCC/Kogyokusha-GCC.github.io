@@ -42,7 +42,7 @@ function writeNavigationBar() {
             "</li>" +
         
             "<li>" +
-            '<a href="festival.html">輝玉祭2020特設ページ</a>' +
+            '<a href="festival.html">オンライン輝玉祭特設ページ</a>' +
             "</li>" +
 
             "<li>" +
