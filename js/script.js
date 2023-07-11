@@ -40,11 +40,7 @@ function writeNavigationBar() {
             "<li>" +
             '<a href="product.html">部員作品</a>' +
             "</li>" +
-        
-            "<li>" +
-            '<a href="festival.html">オンライン輝玉祭特設ページ</a>' +
-            "</li>" +
-
+            
             "<li>" +
             '<a href="news.html">更新履歴</a>' +
             "</li>" +
